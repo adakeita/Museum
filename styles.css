@@ -1,0 +1,75 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.headerimg {
+    top: 0;
+    height: 650px;
+    width: 100vw;
+    opacity: 0.8;
+}
+
+.navbar{
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+  }
+
+  .main-content{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .main-content h4 {
+    margin: 0 auto;
+  }
+
+  .news,.exhibitions,.visit {
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(116, 159, 225); 
+    width: 40%;
+  }
+
+.newsimg,.eximg,.visitimg {
+    margin: 0 auto;
+    width:100%;
+    height: 250px;
+   }
+
+  .news {
+    justify-content: flex-start;
+  }
+
+  .exhibitions {
+    justify-content: center;
+  }
+
+  .visit {
+    justify-content: flex-end;
+  }
+
+
+  @media screen and (max-width:900px) {
+    body {
+        text-align: center;
+    }
+
+    .main-content{
+        display: inline-block;
+        padding: 10px;
+        margin: 0 auto;
+        width: 90%;
+      }
+      .news,.exhibitions,.visit {
+        width: 90%;
+        margin: 20px;
+        padding: 15px;
+      }
+}
