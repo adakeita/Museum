@@ -12,11 +12,11 @@ body {
 
 .news {
   margin-left: 43.5px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 65px;
+  margin-bottom: 65px;
   padding: 3px 10px 10px 10px;
   background-color: rgb(116, 159, 225, 0.5);
-  width: 1000px
+  width: 900px;
 }
 
 .news h4 {
