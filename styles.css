@@ -5,13 +5,6 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-.news h4 {
-  margin: 0 auto;
-  padding: 2%;
-  font-size: 20px;
-  border-bottom: solid 1px black;
-}
-
 .news {
   margin: 0 auto;
   margin-top: 50px;
@@ -21,16 +14,34 @@ body {
   width: 800px
 }
 
+.news h4 {
+  margin: 0 auto;
+  padding: 2%;
+  font-size: 20px;
+  border-bottom: solid 1px black;
+}
+
+.news-content {
+  display: flex;
+  width: 100%;
+}
+.n-images{
+  display: block;
+  width: 50%;
+  margin-right: 2%;
+
+}
 .newsimg {
-  float: left;
   padding: 10px;
-  height: 150px;
+  height: 220px;
 }
 
 .news-p {
-  clear: left;
-  display: inline;
-  text-align: center;
+  display: block;
+}
+
+.more-link {
+ text-align: right;
 }
 
 .main-content {
