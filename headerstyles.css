@@ -64,11 +64,10 @@ body a {
     .navbar-container {
         width: 100vw;
         height: auto;
-        border: solid 1px black;
     }
 
     .navbar {
-        text-align: right;
+        text-align: left;
     }
 
     .navbar li {
@@ -77,7 +76,7 @@ body a {
 
     .header-img {
         height: auto;
-        max-width: 90%;
-        max-height: 80%;
+        max-width: 100%;
+
     }
 }

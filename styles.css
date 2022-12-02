@@ -10,6 +10,10 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.page-content {
+  margin: 10px;
+}
+
 .news {
   margin-left: 43.5px;
   margin-top: 65px;
@@ -79,21 +83,70 @@ body {
   height: 190px;
 }
 
+/*EXHIBITIONS*/
+
+.ex-content-container {
+  margin: 0 auto;
+  width: 100vw;
+  margin: 10px;
+}
+
+.placeholder{
+  margin: 0 auto;
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.ex-image {
+  width: 400px;
+  height: 275px;
+}
+
+.text {
+  padding: 15px;
+  width: 340px;
+}
+
+
 /*MEDIAQUERIES*/
 @media screen and (max-width:800px) {
   body {
     text-align: center;
   }
-
-  .main-content {
-    display: inline-block;
-    width: auto;
+  
+  .news {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+ .news-content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+ }
+  .n-images {
+   width: 100%;
   }
 
-  .news,
+  .news-p {
+    display: block;
+    padding: 1%;
+  }
+
+  .main-content-container {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    justify-content: center;
+    width: 100vw;
+    height: 620px;
+  }
+
   .exhibitions,
   .visit {
-    display: block;
+    display: inline-block;
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
