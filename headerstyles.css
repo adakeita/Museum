@@ -1,7 +1,13 @@
+:root {
+    --orange: rgba(255, 136, 0, 0.4);
+    --white: #ffffff;
+    --green: rgb(144, 238, 144, 0.5);
+  }
+
 body {
-    margin: 0 auto;
-    height: 100vh;
+    margin: 0;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 body a {
@@ -12,17 +18,16 @@ body a {
 .navbar-container {
     width: 100vw;
     height: 50px;
-
 }
 
 .navbar {
     margin: 0 auto;
     display: flex;
-    border-bottom: solid 2px orange;
+    border-bottom: solid 2px var(--orange);
 }
 
 .logoimage {
-    width: 50%;
+    width: 40%;
     justify-content: flex-start;
 }
 
@@ -31,7 +36,6 @@ body a {
     display: inherit;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .navbar li {
@@ -40,7 +44,6 @@ body a {
     text-align: right;
     display: inline;
     padding-right: 1%;
-
 }
 
 .navbar li:hover {
@@ -52,11 +55,13 @@ body a {
     display: block;
     margin: 0 auto;
     margin-top: 25px;
-    padding: 15px;
-    width: 1300px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 2px solid var(--orange);;
+    width: 90%;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
     body {
         text-align: center;
     }
@@ -77,6 +82,5 @@ body a {
     .header-img {
         height: auto;
         max-width: 100%;
-
     }
 }
