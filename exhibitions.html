@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MUSEUM || EXHIBITIONS</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="headerstyles.css">
     <link rel="stylesheet" href="styles.css">
+    <title>exhibitionst</title>
 </head>
 
 <body>
@@ -43,73 +38,177 @@
 
     </div>
     <div class="page-content">
-        <div class="ex-content-container">
-            <div class="ex-content">
-                <img class="ex-image" src="./images/celso-405219.jpg" alt="image">
-                <p class="text">Cosmology
-                    Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night
-                    sky and what we can see and know about the universe around us. We’ll locate the various
-                    constellations and galaxies that can be seen and learn a bit about the early navigators who used the
-                    stars to travel by.
-                    Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
-                    latest exploration of the planets in our solar system.
-                </p>
-            </div>
-            <div class="ex-content" id="evolution">
-                <img class="ex-image" src="./images/skeleton-414543_1920.jpg" alt="image">
-                <p class="text">Evolution
-                    For centuries, philosophers and scientists have wrestled with the question of our origins. Where do
-                    we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a
-                    framework for exploring and understanding our place in this world.
-                    Discover the origins of life on this planet and how the species we know today have evolved our time.
-                    You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly
-                    Mammoth, the Dodos, and a number of dinosaurs too.
-                </p>
-            </div>
-            <div class="ex-content" id="biology">
-                <img class="ex-image" src="./images/samuel-zeller-113381.jpg" alt="image">
-                <p class="text">Biology and Medicine
-                    From micro-organisms to the human body, major breakthroughs in biology are offering us unique
-                    insights into the great wonders of the tiny world.
-                    For many people their life expectancy is much longer and their quality of life much improved, thanks
-                    to the growth of our understanding of medicine. Over a series of exhibits we explore the history of
-                    medicine and take a look at some major breakthroughs including the discovery of penicillin and the
-                    first heart transplant.
-                    Many of our great medicinal discoveries have come not only from the lab, but also from observing
-                    animals in the wild. Often our fellow creatures have beat us to it.
-                </p>
-            </div>
-            <div class="ex-content" id="robotics">
-                <img class="ex-image" src="./images/samuel-zeller-158996.jpg" alt="image">
-                <p class="text">Robotics and AI
-                    The information revolution is here and robotics and artificial intelligence are the science of the
-                    future. From useful home applications of AI to industrial uses of robotics, the future is here. You
-                    can even say hello and shake the hand of Rob the Robot.
-                </p>
-            </div>
-            <div class="ex-content" id="ecology">
-                <img class="ex-image" src="./images/william-bout-264826.jpg" alt="image">
-                <p class="text">
-                    Ecology
-                    As we learn more and more of the impact humans are having on the planet, the more important it
-                    becomes that scientists explore how to create a sustainable future not just for humans but for
-                    the whole planet.
-                    In our ecology section of the museum, we unpack the dangers we currently face including global
-                    warming, extinction of species, and pollution. But we also focus on the positive ways we can all
-                    contribute to a brighter future.
+        <div class="carousel">
+            <input type="radio" name="toggle" id="btn-1" checked>
+            <input type="radio" name="toggle" id="btn-2">
+            <input type="radio" name="toggle" id="btn-3">
+            <input type="radio" name="toggle" id="btn-4">
+            <input type="radio" name="toggle" id="btn-5">
 
-                </p>
+            <div class="slider-controls">
+                <label for="btn-1"></label>
+                <label for="btn-2"></label>
+                <label for="btn-3"></label>
+                <label for="btn-4"></label>
+                <label for="btn-5"></label>
             </div>
-            </p>
+            <ul class="slides">
+                <li class="slide">
+                    <div class="slide-content-container">
+                        <div class="title-container">
+                            <h2 class="slide-title">Cosmology</h2>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-image-container">
+                                <img class="slide-image" src="./images/celso-405219.jpg" alt="stuff">
+                            </div>
+                            <div class="text-container">
+                                <p class="slide-text">
+                                    Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’,
+                                    explores
+                                    the
+                                    night
+                                    sky and what we can see and know about the universe around us. We’ll locate the
+                                    various
+                                    constellations and galaxies that can be seen and learn a bit about the early
+                                    navigators
+                                    who
+                                    used
+                                    the
+                                    stars to travel by.
+                                    Follow the journey of our solar exploration: from early Arab traders, to Galileo’s
+                                    telescope, to
+                                    the
+                                    latest exploration of the planets in our solar system.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide-content-container">
+                        <div class="title-container">
+                            <h2 class="slide-title">Evolution</h2>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-image-container">
+                                <img class="slide-image" src="./images/skeleton-414543_1920.jpg" alt="stuff">
+                            </div>
+                            <div class="text-container">
+                                <p class="slide-text">
+                                    For centuries, philosophers and scientists have wrestled with the question of our
+                                    origins.
+                                    Where do
+                                    we come from and how did we get here? Since Darwin proposed his theory of evolution
+                                    we
+                                    have
+                                    had a
+                                    framework for exploring and understanding our place in this world.
+                                    Discover the origins of life on this planet and how the species we know today have
+                                    evolved
+                                    our time.
+                                    You can also take some time to meet a few of the creatures who didn’t survive,
+                                    including
+                                    our
+                                    Woolly
+                                    Mammoth, the Dodos, and a number of dinosaurs too.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide-content">
+                        <div class="title-container">
+                            <h2 class="slide-title">Biology and Medicine</h2>
+                        </div>
+                        <div class="slide-content-container">
+                            <div class="slide-image-container">
+                                <img class="slide-image" src="./images/samuel-zeller-113381.jpg" alt="stuff">
+                            </div>
+                            <div class="text-container">
+                                <p class="slide-text">
+                                    From micro-organisms to the human body, major breakthroughs in biology are offering
+                                    us
+                                    unique
+                                    insights into the great wonders of the tiny world.
+                                    For many people their life expectancy is much longer and their quality of life much
+                                    improved, thanks
+                                    to the growth of our understanding of medicine. Over a series of exhibits we explore
+                                    the
+                                    history of
+                                    medicine and take a look at some major breakthroughs including the discovery of
+                                    penicillin
+                                    and the
+                                    first heart transplant.
+                                    Many of our great medicinal discoveries have come not only from the lab, but also
+                                    from
+                                    observing
+                                    animals in the wild. Often our fellow creatures have beat us to it.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide-content-container">
+                        <div class="title-container">
+                            <h2 class="slide-title">Robotics and AI</h2>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-image-container">
+                                <img class="slide-image" src="./images/samuel-zeller-158996.jpg" alt="stuff">
+                            </div>
+                            <div class="text-container">
+                                <p class="slide-text">
+                                    The information revolution is here and robotics and artificial intelligence are the
+                                    science
+                                    of the
+                                    future. From useful home applications of AI to industrial uses of robotics, the
+                                    future
+                                    is
+                                    here. You
+                                    can even say hello and shake the hand of Rob the Robot.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="slide-content-container">
+                        <div class="title-container">
+                            <h2 class="slide-title">Ecology</h2>
+                        </div>
+                        <div class="slide-content">
+                            <div class="slide-image-container">
+                                <img class="slide-image" src="./images/mammoth-1257288_1920.jpg" alt="stuff">
+                            </div>
+                            <div class="text-container">
+                                <p class="slide-text">
+                                    As we learn more and more of the impact humans are having on the planet, the more
+                                    important
+                                    it
+                                    becomes that scientists explore how to create a sustainable future not just for
+                                    humans
+                                    but
+                                    for
+                                    the whole planet.
+                                    In our ecology section of the museum, we unpack the dangers we currently face
+                                    including
+                                    global
+                                    warming, extinction of species, and pollution. But we also focus on the positive
+                                    ways we
+                                    can
+                                    all
+                                    contribute to a brighter future.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
-
     </div>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-    </div>
-    <script src="" async defer></script>
 </body>
 
 </html>
