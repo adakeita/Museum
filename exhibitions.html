@@ -18,25 +18,33 @@
 
 <body>
     <div class="header">
-        <div class="navbar-container">
-            <ul class="navbar">
-                <div class="logoimage">
-                    <a href="index.html">
-                        <img class="logo" src="./images/Artsy Crafts Central (1).jpg" alt="logo">
-                    </a>
+        <div class="nav-content">
+            <div class="logoimage">
+                <a href="index.html">
+                    <img class="logo" src="./images/Artsy Crafts Central (1).png" alt="logo">
+                </a>
+            </div>
+            <div class="navmenu">
+
+                <div class="navbar-container" tabindex="0">
+                    <ul class="navbar">
+                        <li class="list-item"><a class="menu-link" href="about.html">ABOUT</a></li>
+                        <li class="list-item"><a class="menu-link" href="exhibitions.html">EXHIBITIONS</a></li>
+                        <li class="list-item"><a class="menu-link" href="visit.html">CONTACT</a></li>
+                    </ul>
+                    <a class="hamburger" href="#navbar" title="menuhamburger"><img class="hamburger-image"
+                            src="./images/menu.png" alt="hamburger-menu"><i class="fa fa-2x fa-times-circle"></i></a>
                 </div>
-                <div class="exultag">
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="exhibitions.html">EXHIBITIONS</a></li>
-                    <li><a href="visit.html">CONTACT</a></li>
-                </div>
-            </ul>
+            </div>
+            <a href="#!" title="close menu" class="hamburger-closed" title="menuhamburger"><i
+                    class="fa fa-2x fa-times-circle"></i></a>
         </div>
-        <img class="header-img" src="./images/mammothheader-1257288_1920.jpg">
+        <img class="header-img" src="./images/billetto-editorial-header1.jpg">
+
     </div>
     <div class="page-content">
         <div class="ex-content-container">
-            <div class="placeholder">
+            <div class="ex-content">
                 <img class="ex-image" src="./images/celso-405219.jpg" alt="image">
                 <p class="text">Cosmology
                     Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night
@@ -47,7 +55,7 @@
                     latest exploration of the planets in our solar system.
                 </p>
             </div>
-            <div class="placeholder">
+            <div class="ex-content" id="evolution">
                 <img class="ex-image" src="./images/skeleton-414543_1920.jpg" alt="image">
                 <p class="text">Evolution
                     For centuries, philosophers and scientists have wrestled with the question of our origins. Where do
@@ -58,7 +66,7 @@
                     Mammoth, the Dodos, and a number of dinosaurs too.
                 </p>
             </div>
-            <div class="placeholder">
+            <div class="ex-content" id="biology">
                 <img class="ex-image" src="./images/samuel-zeller-113381.jpg" alt="image">
                 <p class="text">Biology and Medicine
                     From micro-organisms to the human body, major breakthroughs in biology are offering us unique
@@ -71,7 +79,7 @@
                     animals in the wild. Often our fellow creatures have beat us to it.
                 </p>
             </div>
-            <div class="placeholder">
+            <div class="ex-content" id="robotics">
                 <img class="ex-image" src="./images/samuel-zeller-158996.jpg" alt="image">
                 <p class="text">Robotics and AI
                     The information revolution is here and robotics and artificial intelligence are the science of the
@@ -79,24 +87,24 @@
                     can even say hello and shake the hand of Rob the Robot.
                 </p>
             </div>
-                <div class="placeholder">
-                    <img class="ex-image" src="./images/william-bout-264826.jpg" alt="image">
-                    <p class="text">
-                        Ecology
-                        As we learn more and more of the impact humans are having on the planet, the more important it
-                        becomes that scientists explore how to create a sustainable future not just for humans but for
-                        the whole planet.
-                        In our ecology section of the museum, we unpack the dangers we currently face including global
-                        warming, extinction of species, and pollution. But we also focus on the positive ways we can all
-                        contribute to a brighter future.
+            <div class="ex-content" id="ecology">
+                <img class="ex-image" src="./images/william-bout-264826.jpg" alt="image">
+                <p class="text">
+                    Ecology
+                    As we learn more and more of the impact humans are having on the planet, the more important it
+                    becomes that scientists explore how to create a sustainable future not just for humans but for
+                    the whole planet.
+                    In our ecology section of the museum, we unpack the dangers we currently face including global
+                    warming, extinction of species, and pollution. But we also focus on the positive ways we can all
+                    contribute to a brighter future.
 
-                    </p>
-                </div>
                 </p>
             </div>
-
+            </p>
         </div>
-        <!--[if lt IE 7]>
+
+    </div>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
