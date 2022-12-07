@@ -15,6 +15,10 @@ body a {
     color: black;
 }
 
+.header {
+    margin-bottom: 70px;
+}
+
 .nav-content {
     position: fixed;
     top: 0;
