@@ -227,14 +227,14 @@ body {
   margin: 100px 0px 100px 72px;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
   overflow: hidden;
-  
+
 }
 
 .slider-controls {
   position: absolute;
-  bottom: 0px;
+  bottom: 15px;
   left: 50%;
-  width: 200px;
+  width: 80vw;
   text-align: center;
   transform: translatex(-50%);
   z-index: 1000;
@@ -258,7 +258,7 @@ body {
   width: 20px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: rgb(255 136 0 / 40%);
+  background-color: var(--background);
   transition: background-color 0.2s linear;
 }
 
@@ -346,10 +346,10 @@ body {
 }
 
 .slide-image {
+  border-radius: 10%;
   display: block;
   height: 259px;
   width: 352px;
-  margin: 0;
 }
 
 .text-container {
@@ -446,9 +446,13 @@ body {
 }
 
 .about-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: 80vw;
 }
+
 
 .student-image-container {
   align-items: center;
