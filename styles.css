@@ -2,7 +2,7 @@
   --blue: rgb(116, 159, 225, 0.5);
   --green: rgb(144, 238, 144, 0.5);
   --border: rgba(255, 136, 0, 0.4);
-  --white: #ffffff;
+  --background: #ffffff;
 }
 
 body {
@@ -85,7 +85,7 @@ body {
   margin-top: 1%;
   width: 80%;
   height: 130px;
-  background-color: var(--white);
+  background-color: var(--background);
   padding: 1%;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .newsimg {
-  background-color: var(--white);
+  background-color: var(--background);
   margin: 1.5%;
   padding: 5px;
   height: 200px;
@@ -165,7 +165,7 @@ body {
 .explore-img-child,
 .explore-img-teacher {
   width: 300px;
-  background-color: var(--white);
+  background-color: var(--background);
   padding: 2px;
 }
 
@@ -218,17 +218,16 @@ body {
 }
 
 .carousel {
-  background-color: #ffffff;
+  background-color: var(--background);
   position: relative;
   display: flex;
   width: 90vw;
   min-height: 425px;
   height: auto;
-  margin: 50px auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 100px 0px 100px 72px;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
   overflow: hidden;
+  
 }
 
 .slider-controls {
@@ -439,7 +438,7 @@ body {
   margin: 20px 0px 50px 0px;
 }
 
-.about-container {}
+/*.about-container {}*/
 
 .about-header {
   width: 80vw;
@@ -545,7 +544,7 @@ body {
   .newsimg {
     margin: 0 auto;
     margin-top: 10px;
-    background-color: var(--white);
+    background-color: var(--background);
     padding: 5px;
     height: 200px;
   }
@@ -577,7 +576,7 @@ body {
     margin: 0 auto;
     margin-top: 2%;
     width: 50%;
-    background-color: var(--white);
+    background-color: var(--background);
     padding: 1%;
   }
 
@@ -657,7 +656,7 @@ body {
   }
 
   .newsimg {
-    background-color: var(--white);
+    background-color: var(--background);
     margin: 1.5%;
     padding: 5px;
     height: 200px;
@@ -698,7 +697,7 @@ body {
     margin-top: 2%;
     width: 80%;
     height: 150px;
-    background-color: var(--white);
+    background-color: var(--background);
     padding: 1%;
   }
 
