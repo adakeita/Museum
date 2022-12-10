@@ -1,7 +1,7 @@
 :root {
-  --blue: rgb(116, 159, 225, 0.5);
-  --green: rgb(144, 238, 144, 0.5);
-  --border: rgba(255, 136, 0, 0.4);
+  --blue: rgba(73, 108, 162, 0.256);
+  --green: rgba(80, 157, 80, 0.194);
+  --border: rgba(232, 153, 63, 0.301);
   --background: #ffffff;
 }
 
@@ -56,6 +56,11 @@ body p {
   padding: 1%;
   display: flex;
   justify-content: space-between;
+}
+
+..more-tag {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .visit-f-hours {
