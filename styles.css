@@ -373,6 +373,22 @@ body p {
   margin: 0;
 }
 
+.news-exhibitions {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.exhibitions-new {
+  margin: 2%;
+}
+
+.new-e-h3 {
+  margin: 0 auto;
+  width: 85vw;
+}
+
 .carousel {
   background-color: var(--background);
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 7px 1px -2px rgb(0 0 0 / 10%);
