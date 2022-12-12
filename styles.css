@@ -58,7 +58,7 @@ body p {
   justify-content: space-between;
 }
 
-..more-tag {
+.more-tag {
   display: flex;
   justify-content: flex-end;
 }
@@ -275,7 +275,58 @@ body p {
 .visit-headline {
   margin: 0 auto;
   font-size: 25px;
+  margin-bottom: 50px
 }
+
+.hours-header,.admission-header {
+  font-weight: lighter;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.hours-admission {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.hour-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.weekday {
+  margin-right: 40px;
+}
+
+.wknd {
+  margin-right: 80px;
+}
+
+.admission-p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.facilities-image-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.shop-image {
+  border: 1px solid var(--border);
+  margin: 30px;
+  padding: 10px;
+}
+
+
 
 
 /*EXHIBITIONS*/
