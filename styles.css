@@ -356,9 +356,12 @@ body p {
 }
 
 .shop-image {
-  border: 1px solid var(--border);
+  /*border: 1px solid var(--border);
   margin: 30px;
-  padding: 10px;
+  padding: 10px;*/
+  border: 1px solid var(--border);
+  margin: 2%;
+  padding: 0.5%;
 }
 
 
