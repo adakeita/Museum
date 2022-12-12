@@ -50,12 +50,21 @@ body p {
 
 .visit h4,
 .news h4 {
-  border-bottom: solid 1px black;
-  font-size: 20px;
+  text-decoration: underline;
+  font-size: 25px;
   margin: 0 auto;
   padding: 1%;
   display: flex;
+  font-weight: lighter;
+}
+
+.open-hours {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .more-tag {
@@ -71,13 +80,7 @@ body p {
   flex-direction: column;
 }
 
-.open-hours {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
-}
+
 
 .open-hours p {
   font-size: 17px;
@@ -103,13 +106,6 @@ body p {
 .news {
   background-color: var(--blue);
   width: 55%;
-}
-
-.news h4 {
-  margin: 0 auto;
-  padding: 1%;
-  font-size: 20px;
-  border-bottom: solid 1px black;
 }
 
 .news-content {
