@@ -26,12 +26,6 @@ body p {
 /*FRONTPAGE_NEWS*/
 
 .news-visit-container {
-  /*  align-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 455px;*/
   margin-bottom: 50px;
 }
 
@@ -65,7 +59,7 @@ body p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 10px;
 }
 
@@ -328,8 +322,6 @@ body p {
 }
 
 
-
-
 /*EXHIBITIONS*/
 
 .exhibitions *::before,
@@ -339,24 +331,33 @@ body p {
   margin: 0;
 }
 
-
-
-.news-exhibitions {
+.news-e-row {
   display: flex;
-  flex-direction: row;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .exhibitions-new {
-  margin: 3%;
+  flex: 1;
+}
+
+.professor {
+padding-left: 20px;
+}
+
+.night {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.energetica {
+ padding-right: 20px;
 }
 
 .n-e-header {
   font-weight: lighter;
   font-size: 30px;
   text-decoration: underline;
-  margin: 0 auto;
-  width: 85vw;
+  margin-bottom: 70px;
 }
 
 .ex-n-img {
