@@ -42,7 +42,7 @@ body p {
 
 .visit {
   flex: 1;
-  background-color: var(--border);
+  border: solid 5px var(--border);
   margin-right: 40px;
 }
 
@@ -89,7 +89,7 @@ body p {
 }
 
 .visitimg {
-  background-color: var(--background);
+  border: solid 2px var(--border);
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -98,7 +98,7 @@ body p {
 }
 
 .news {
-  background-color: var(--blue);
+  border: solid 5px var(--blue);
   flex: 2;
 }
 
@@ -115,7 +115,7 @@ body p {
 }
 
 .newsimg {
-  background-color: var(--background);
+  border: solid 2px var(--blue);
   padding: 2%;
   margin-right: 40px;
 }
@@ -126,7 +126,7 @@ body p {
 
 /*FRONTPAGE_EXPLORE*/
 .frontpage-explore-container {
-  background-color: var(--green);
+  border: solid 5px var(--green);
   border-radius: 1%;
   margin-bottom: 50px;
   padding-bottom: 20px;
@@ -153,12 +153,14 @@ body p {
 
 .f-child-image,
 .f-teacher-image {
-  flex: 1;
+  padding: 5px;
+  border: solid 2px var(--green);
 }
 
 .f-child-text,
 .f-teacher-text {
   flex: 2;
+  margin-top: 20px;
 }
 
 .f-child-text {
@@ -166,12 +168,11 @@ body p {
 }
 
 .f-teacher-text {
-  padding-right: 30px;
+  padding-right: 25px;
 }
 
 .f-explore-img-child,
 .f-explore-img-teacher {
-  width: 100%;
   display: block;
 }
 
@@ -341,16 +342,16 @@ body p {
 }
 
 .professor {
-padding-left: 20px;
+  padding-left: 20px;
 }
 
 .night {
-padding-left: 20px;
-padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .energetica {
- padding-right: 20px;
+  padding-right: 20px;
 }
 
 .n-e-header {
