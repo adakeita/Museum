@@ -84,9 +84,8 @@ body a {
     width: 90%;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 960px) {
     body {
-        min-width: 705px;
         text-align: center;
         overflow-x: hidden;
     }
@@ -95,14 +94,15 @@ body a {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100vw;
+        width: 120vw;
+        border-bottom: solid 2px var(--orange);
     }
 
     .nav-content:focus {
         position: fixed;
         top: 0;
         left: 0;
-        height: 275px;
+        height: 300px;
         width: 100vw;
         background-color: var(--white);
     }
@@ -139,12 +139,14 @@ body a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: -10px;
     }
 
     .navbar-container:focus .navbar,
     .navbar-container:focus-within .navbar {
         display: flex;
-        height: 155px;
+        padding-top: 10px;
+        height: 310px;
         width: 100vw;
         position: absolute;
         visibility: visible;
@@ -152,11 +154,12 @@ body a {
         top: 45px;
         background-color: var(--white);
         flex-direction: column;
+        border-bottom: 2px solid var(--orange);
     }
 
     .list-item {
         margin: 0 auto;
-        padding: 13px 24px;
+        padding: 30px;
     }
 
     .menu-item:hover,
