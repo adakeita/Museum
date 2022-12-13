@@ -19,8 +19,8 @@ body p {
 }
 
 .page-content {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 /*FRONTPAGE_NEWS*/
@@ -234,16 +234,14 @@ body p {
 
 /*VISIT_PAGE*/
 
-.visit-content-container {
-  margin: 0 auto;
-  width: 100vw;
+.visit-top-container {
+  margin-top: 30px;
+ /* margin-left: 100px;
+  margin-right: 100px;*/
 }
 
 .visit-headline {
-  margin: 0 auto;
   font-size: 30px;
-  margin-bottom: 20px;
-  margin-left: 155px;
 }
 
 .hours-header,
@@ -255,46 +253,40 @@ body p {
   text-decoration: underline;
 }
 
-.hours-admission {
-  width: 80vw;
+.hours-admin-row {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .hour-container {
+  flex: 2;
+}
+
+.hours-text {
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
-  justify-content: space-evenly;
 }
 
 .weekday {
-  margin-right: 40px;
+  padding-right: 30px;
 }
 
-.wknd {
-  margin-right: 80px;
+.admission-container {
+  flex: 1;
 }
 
-.admission-info {
+.admin-info {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
-.admission-p {
+.admin-text {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .general-info {
   display: flex;
-  margin: 0 auto;
-  width: 80vw;
 }
 
 .access-info {
@@ -341,6 +333,11 @@ body p {
 .news-e-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.news-exhibitions{
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 .exhibitions-new {
