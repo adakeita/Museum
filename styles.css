@@ -25,6 +25,12 @@ body p {
 
 /*FRONTPAGE_NEWS*/
 
+.frontpage-h5 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-left: 40px;
+}
+
 .news-visit-container {
   margin-bottom: 50px;
 }
