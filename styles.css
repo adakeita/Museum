@@ -658,10 +658,10 @@ body p {
     padding: 5px;
   }
 
-.more-tag {
-  display: inline;
-  padding: 20px;
-}
+  .more-tag {
+    display: inline;
+    padding: 20px;
+  }
 
   .frontpage-explore-container {
     margin: 0 auto;
@@ -674,10 +674,6 @@ body p {
     text-align: left;
     margin-bottom: 30px;
     margin-top: -35px;
-  }
-
-  .row-child,
-  .row-teacher {
   }
 
   .f-explore-img-child,
@@ -699,6 +695,63 @@ body p {
     text-align: left;
     margin-top: -70px;
   }
+
+  .about-text,
+  .about-explore-text {
+    display: block;
+  }
+
+  .visit-top-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hours-admin-row {
+    display: block;
+  }
+
+  .hour-container {
+    text-align: center;
+  }
+
+  .hours-text {
+    display: block;
+    text-align: center;
+  }
+
+  .weekday {
+    padding: 0;
+  }
+
+  .admission-container {
+    margin-top: 50px;
+  }
+
+  .admin-info {
+    display: block;
+  }
+
+  .admin-text {
+    display: block;
+  }
+  .general-info {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .access-info {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /*Media-exhibitions*/
+  .news-e-row {
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 655px) {
