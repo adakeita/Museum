@@ -5,3 +5,47 @@
     border-top: 2px solid orange;
     margin-top: 100px;
 }
+
+.footer-content {
+    padding-bottom: 20px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.connect {
+    flex: 2;
+    display: flex;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.direct-contact {
+    text-align: center;
+    display: block;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.connect-socials {
+    text-align: center;
+    display: block;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-info {
+    flex: 1;
+    margin-top: 15px;
+}
