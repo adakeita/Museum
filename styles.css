@@ -261,8 +261,8 @@ body p {
 
 .involved-img {
   margin-top: 1%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 15% 5%;
 }
 
@@ -337,6 +337,11 @@ body p {
 
 #content-divider {
   height: 40px;
+}
+
+.facilities-em {
+  font-size: 22px;
+  font-weight: lighter;
 }
 
 .facilities-image-container {
@@ -541,6 +546,7 @@ textarea:focus {
 }
 
 .slider-controls {
+  margin-bottom: 10px;
   position: absolute;
   bottom: 0px;
   left: 50%;
