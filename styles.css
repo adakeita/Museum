@@ -195,7 +195,7 @@ body p {
 }
 
 #about-explore-container {
-  height: 50px;
+  height: 10px;
 }
 
 .kids-e-header,
@@ -214,7 +214,6 @@ body p {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 80vw;
 }
 
 .student-image-container {
@@ -484,59 +483,6 @@ textarea:focus {
 
 .ex-n-img {
   border-radius: 100%;
-}
-
-.exhibition-container {
-  margin: 0 auto;
-}
-
-.slide-container {
-  margin: 0 auto;
-  margin-left: 360px;
-  margin-right: 360px;
-  overflow-y: hidden;
-  overflow-x: auto;
-  display: flex;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-.container .item {
-  flex: 0 0 300px;
-  width: 300px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  scroll-snap-align: start;
-}
-
-.slide-image-container {
-  padding: 0 50px 0 50px;
-  margin: 10px;
-}
-
-.slide-image{
-  border-radius: 10%;
-}
-
-.slide-text {
-  width: 600px;
-  margin: 0 50px 20px 50px;
-}
-
-.links a {
-  margin-top: 20px;
-  background-color: white;
-  border-radius: 100%;
-  display: inline-flex;
-  padding: 10px;
-  text-decoration: none;
-  border: 2px solid orange;
-}
-
-.links {
-  text-align: center;
 }
 
 /*MEDIAQUERIES*/
