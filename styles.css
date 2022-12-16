@@ -1059,6 +1059,11 @@ textarea:hover {
     overflow-x: hidden;
   }
 
+  .page-content {
+    margin-left: 30px;
+    margin-right: 31px;
+  }
+
   #form-div {
     left: 3%;
     margin-right: 3%;
