@@ -128,9 +128,16 @@ body a {
 
     .hamburger-image {
         position: fixed;
-        top: 32px;
-        right: 48px;
+        top: 15px;
+        right: 25px;
         height: 40px;
+    }
+
+    .logoimage {
+        position: sticky;
+        top: 10px;
+        left: 3px;
+        width: 20%;
     }
 
     .navbar {
@@ -237,8 +244,8 @@ body a {
 
     .hamburger-image {
         position: fixed;
-        top: 32px;
-        right: 48px;
+        top: 15px;
+        right: 25px;
         height: 40px;
     }
 
