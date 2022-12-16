@@ -1245,7 +1245,7 @@ textarea:hover {
     text-align: center;
     width: 100%;
     display: block;
-}
+  }
 
   .student-image {
     width: 80%;
@@ -1253,5 +1253,56 @@ textarea:hover {
     margin: 0;
     padding: 0;
   }
+
+  /*Contact_media*/
+
+  input {
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    width: 272px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: #ffffff;
+    outline: none;
+    color: #121212;
+    border: solid 1px var(--border);
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+
+  textarea {
+    width: 272px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: #ffffff;
+    outline: none;
+    color: #121212;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    border: solid 1px var(--border);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+
+  #submit {
+    width: 304px;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    color: #121212;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px var(--border);
+  }
+
+
 
 }
