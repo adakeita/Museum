@@ -568,48 +568,10 @@ textarea:hover {
   margin-left: 40px;
 }
 
-.news-e-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.news-exhibitions {
-  text-align: center;
-  margin-bottom: 70px;
-}
-
-.exhibitions-new {
-  flex: 1;
-}
-
-.professor {
-  padding-left: 20px;
-}
-
-.night {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.energetica {
-  padding-right: 20px;
-}
-
-.n-e-header {
-  font-weight: lighter;
-  font-size: 30px;
-  text-decoration: underline;
-  margin-bottom: 70px;
-}
-
-.ex-n-img {
-  border-radius: 100%;
-}
-
 .carousel {
   position: relative;
   width: 85vw;
-  height: 500px;
+  height: 85vh;
   margin: 50px auto;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
   overflow: hidden;
@@ -669,7 +631,6 @@ textarea:hover {
 
 .slide {
   position: absolute;
-  top: 0;
   left: 0;
   padding: 2%;
   width: 100%;
@@ -688,6 +649,7 @@ textarea:hover {
 .slide-content {
   flex: 2;
   width: 60%;
+  margin-top: -180px;
 }
 
 .slide-title {
@@ -704,8 +666,9 @@ textarea:hover {
   margin: 1%;
   flex: 1;
   border-radius: 10%;
-  margin-top: 7%;
+  margin-top: -5%;
   margin-left: 5%;
+  padding-right: 20px;
 }
 
 .slide-image {
@@ -716,7 +679,6 @@ textarea:hover {
 
 .ugly {
   opacity: 0;
-  margin-left: 100000000px;
 }
 
 .controls {
@@ -983,8 +945,38 @@ textarea:hover {
   }
 
   /*Media-exhibitions*/
-  .news-e-row {
-    display: block;
+
+  .carousel {
+    margin-left: -10%;
+  }
+
+  .slide-row {
+    flex-wrap: wrap;
+  }
+
+  .slide-title {
+    font-size: 36px;
+  }
+
+  .slide {
+    margin-top: -40%;
+  }
+
+  .slide-content {
+    margin: 20px;
+  }
+
+  .slide-image-container {
+    display: none;
+  }
+
+  .slide-text {
+    /* padding: 2%; */
+    padding-top: 3%;
+  }
+
+  .ugly {
+    height: -20px;
   }
 
   /*media_visit*/
@@ -1200,8 +1192,10 @@ textarea:hover {
   }
 
   /*Media-exhibitions*/
-  .news-e-row {
-    display: block;
+
+  .slide-content {
+    margin: 5px;
+    margin-top: -40px;
   }
 
   /*about_media*/
