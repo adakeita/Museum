@@ -48,7 +48,7 @@ body a {
 
 .navbar {
     margin: 0 auto;
-    margin-left: 295px;
+    margin-left: 350px;
     display: flex;
     width: 70%;
 }
@@ -90,6 +90,7 @@ body a {
 
 @media screen and (max-width: 960px) {
     body {
+        margin: 0 auto;
         text-align: center;
         overflow-x: hidden;
     }
@@ -98,8 +99,8 @@ body a {
         position: fixed;
         top: 0;
         left: 0;
-        width: 120vw;
-        border-bottom: solid 2px var(--orange);
+        width: 100vw;
+        border: none;
     }
 
     .nav-content:focus {
@@ -109,6 +110,8 @@ body a {
         height: 300px;
         width: 100vw;
         background-color: var(--white);
+        border: none;
+        border-bottom: solid 2px var(--orange);
     }
 
     .navmenu {
@@ -135,6 +138,7 @@ body a {
         padding-bottom: 20px;
         margin: 0 auto;
         opacity: 0;
+        left: 0;
         position: fixed;
         visibility: none;
         width: 100vw;
@@ -143,19 +147,17 @@ body a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: -10px;
     }
 
     .navbar-container:focus .navbar,
     .navbar-container:focus-within .navbar {
         display: flex;
-        padding-top: 10px;
-        height: 310px;
+        height: 300px;
         width: 100vw;
         position: absolute;
         visibility: visible;
         opacity: 1;
-        top: 45px;
+        top: 60px;
         background-color: var(--white);
         flex-direction: column;
         border-bottom: 2px solid var(--orange);
@@ -163,8 +165,13 @@ body a {
 
     .list-item {
         margin: 0 auto;
-        padding: 30px;
+        padding: 20px 25px;
     }
+
+    .home {
+        visibility: visible;
+    }
+
 
     .menu-item:hover,
     .menu-item:focus {
