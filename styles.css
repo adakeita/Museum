@@ -186,6 +186,7 @@ body p {
 .f-explore-img-child,
 .f-explore-img-teacher {
   display: block;
+  border-radius: 10%;
 }
 
 /*ABOUT-PAGE*/
