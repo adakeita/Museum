@@ -796,7 +796,8 @@ textarea:hover {
     font-size: 40px;
     font-weight: lighter;
     margin: 0;
-    margin-top: -40px;
+    margin-top: -45px;
+    margin-bottom: 20px;
   }
 
   /*media_frontpage*/
