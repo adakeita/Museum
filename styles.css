@@ -1107,14 +1107,42 @@ textarea:focus {
   }
 
   .access-info {
+    text-align: center;
     display: block;
     text-align: center;
     margin-top: 30px;
+    margin: 0 auto;
+  }
+
+  #page-visit>div.page-content>div.general-info>div.location>iframe {
+    width: 80%;
+  }
+
+  .shop-image {
+    border: 1px solid var(--border);
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
   }
 
   /*Media-exhibitions*/
   .news-e-row {
     display: block;
   }
+
+/*about_media*/
+
+.visit-headline {
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0 auto;
+}
+
+.student-image {
+  width: 100%;
+  border: 1px solid var(--border);
+  margin: 2%;
+  padding: 0.5%;
+}
 
 }
