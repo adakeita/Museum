@@ -195,6 +195,12 @@ body p {
 
 /*ABOUT-PAGE*/
 
+.about-h5 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-left: 40px;
+}
+
 .about-page-header,
 .explore-header {
   font-size: 30px;
@@ -710,6 +716,7 @@ textarea:hover {
 
 .ugly {
   opacity: 0;
+  margin-left: 100000000px;
 }
 
 .controls {
