@@ -14,6 +14,10 @@ body {
   width: 100vw;
 }
 
+*::-webkit-input-placeholder {
+  color: #000;
+}
+
 body p {
   font-size: 19px;
   line-height: 1.7;
@@ -362,124 +366,180 @@ body p {
 
 /*CONTACT_PAGE*/
 
-*::-webkit-input-placeholder {
-  color: #000;
+.contact-h5 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-left: 40px;
 }
 
-#feedback-page {
+#form {
+  font-family: "Quicksand", sans-serif;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ff8000;
+  font-size: 18px;
+
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 18px;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aca49c;
+  font-size: 18px;
+}
+
+input:focus::placeholder,
+textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder,
+textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 18px;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 18px;
+}
+
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
+  color: #000000;
+  font-size: 18px;
+}
+
+input:hover:focus::-moz-placeholder,
+textarea:hover:focus::-moz-placeholder {
+  color: #000000;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #000000;
+  font-size: 18px;
+}
+
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: #000000;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #000000;
+  font-size: 18px;
+}
+
+input:hover:focus::-ms-placeholder,
+textarea:hover::focus:-ms-placeholder {
+  color: #000000;
+}
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
   text-align: center;
+  letter-spacing: 7px;
 }
 
-#form-main {
-  width: 100%;
-  float: left;
-  padding-top: 0px;
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
 }
 
-#form-div {
-  background: #fff;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  width: 450px;
-  float: left;
-  left: 50%;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: -260px;
-}
-
-.feedback-input {
-  color: #000;
-  font-family: Montserrat, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  border-radius: 0;
-  line-height: 22px;
-  background-color: #fff;
-  padding: 13px 13px 13px 13px;
-  margin-bottom: 10px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 0px solid transparent;
-  border-bottom: 1px solid #000;
-}
-
-.feedback-input:focus {
-  background: #fff;
-  box-shadow: 0;
-  color: #000;
+input {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: #ffffff;
   outline: none;
-  padding: 13px 13px 13px 13px;
+  color: #121212;
+  border: solid 1px var(--border);
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
 }
 
-.focused {
-  color: #000;
-  border: #30aed6 solid 2px;
+input:hover {
+  color: #000000;
 }
 
 textarea {
-  width: 100%;
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
-
-input:hover,
-textarea:hover,
-input:focus,
-textarea:focus {
-  background-color: white;
-}
-
-#button-blue {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  float: left;
-  width: 100%;
-  border: 0px solid transparent;
-  cursor: pointer;
-  background-color: #000;
-  color: white;
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: #ffffff;
+  outline: none;
+  color: #121212;
   font-size: 18px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
+  border: solid 1px var(--border);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
 }
 
-#button-blue:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+textarea:hover {
+  color: #000000;
 }
 
-.submit:hover {
-  color: #3498db;
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  color: #121212;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px var(--border);
 }
 
-.ease {
-  width: 0px;
-  height: 74px;
-  background-color: #fbfbfb;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  -ms-transition: .3s ease;
-  transition: .3s ease;
+#submit:hover {
+  color: #fff8f8;
+  background-color: #ff8000;
 }
-
-.submit:hover .ease {
-  width: 100%;
-  background-color: white;
-}
-
 
 /*EXHIBITIONS*/
 
@@ -1131,19 +1191,19 @@ textarea:focus {
     display: block;
   }
 
-/*about_media*/
+  /*about_media*/
 
-.visit-headline {
-  font-size: 40px;
-  font-weight: lighter;
-  margin: 0 auto;
-}
+  .visit-headline {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0 auto;
+  }
 
-.student-image {
-  width: 100%;
-  border: 1px solid var(--border);
-  margin: 2%;
-  padding: 0.5%;
-}
+  .student-image {
+    width: 100%;
+    border: 1px solid var(--border);
+    margin: 2%;
+    padding: 0.5%;
+  }
 
 }
