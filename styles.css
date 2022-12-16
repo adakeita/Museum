@@ -194,6 +194,7 @@ body p {
 .f-explore-img-teacher {
   display: block;
   border-radius: 10%;
+  width: 100%;
 }
 
 .explore-next {
@@ -889,8 +890,7 @@ textarea:hover {
   }
 
   .more-tag {
-    display: inline;
-    padding: 20px;
+    margin: 0;
   }
 
   .frontpage-explore-container {
@@ -1084,13 +1084,14 @@ textarea:hover {
   }
 
   .visit {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
   }
 
   .visitimg {
+    width: 80%;
     margin: 0 auto;
     margin-top: 5px;
     padding: 5px;
@@ -1103,12 +1104,11 @@ textarea:hover {
   }
 
   .news {
-    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
     padding: 0;
-    min-width: 345px;
+    min-width: 95%;
   }
 
   .news-content {
@@ -1116,9 +1116,9 @@ textarea:hover {
   }
 
   .news-p {
-    padding: 10px;
     display: inline-block;
     text-align: center;
+    margin: 0 auto;
   }
 
   .n-images {
@@ -1127,14 +1127,14 @@ textarea:hover {
   }
 
   .newsimg {
+    width: 50%;
     margin: 0 auto;
     margin-top: 10px;
     padding: 5px;
   }
 
   .more-tag {
-    display: inline;
-    padding: 20px;
+    margin: 0;
   }
 
   .frontpage-explore-container {
@@ -1152,6 +1152,7 @@ textarea:hover {
 
   .f-explore-img-child,
   .f-explore-img-teacher {
+    width: 80%;
     display: inline-block;
   }
 
