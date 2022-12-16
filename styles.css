@@ -34,14 +34,13 @@ body p {
   font-weight: bolder;
 }
 
-/*FRONTPAGE_NEWS*/
-
-.frontpage-h5 {
+.page_header {
   font-size: 40px;
   font-weight: lighter;
   margin-left: 40px;
 }
 
+/*FRONTPAGE_NEWS*/
 .news-visit-container {
   margin-bottom: 50px;
 }
@@ -207,17 +206,11 @@ body p {
 
 /*ABOUT-PAGE*/
 
-.about-h5 {
-  font-size: 40px;
-  font-weight: lighter;
-  margin-left: 40px;
-}
-
-.about-page-header,
+/*.about-page-header,
 .explore-header {
   font-size: 30px;
   font-weight: lighter;
-}
+}*/
 
 .about p {
   padding-left: 20px;
@@ -252,12 +245,6 @@ body p {
 
 /*News_Page*/
 
-.temp-header {
-  font-size: 40px;
-  font-weight: lighter;
-  margin-left: 40px;
-}
-
 .news-temp-row {
   margin-left: 70px;
   margin-right: 70px;
@@ -281,12 +268,6 @@ body p {
 }
 
 /*GET_INVOLVED*/
-
-.work-h5 {
-  font-size: 40px;
-  font-weight: lighter;
-  margin-left: 40px;
-}
 
 .involved-row {
   display: flex;
@@ -322,12 +303,6 @@ body p {
 .visit-top-container {
   margin-left: 100px;
   margin-bottom: 30px;
-}
-
-.visit-headline {
-  font-size: 40px;
-  font-weight: lighter;
-  margin-left: 40px;
 }
 
 .hours-header,
@@ -412,12 +387,6 @@ body p {
 }
 
 /*CONTACT_PAGE*/
-
-.contact-h5 {
-  font-size: 40px;
-  font-weight: lighter;
-  margin-left: 40px;
-}
 
 .send-message {
   font-weight: bold;
@@ -607,12 +576,6 @@ textarea:hover {
   font-weight: bold;
   text-decoration: underline;
   color: #ff8000;
-}
-
-.exhibitions-headline {
-  font-size: 40px;
-  font-weight: lighter;
-  margin-left: 40px;
 }
 
 .carousel {
@@ -821,6 +784,17 @@ textarea:hover {
   body {
     text-align: center;
     overflow-x: hidden;
+  }
+
+  .page-content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .page_header {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
   }
 
   /*media_frontpage*/
@@ -1061,7 +1035,14 @@ textarea:hover {
 
   .page-content {
     margin-left: 30px;
-    margin-right: 31px;
+    margin-right: 30px;
+  }
+
+  .page_header {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 2%;
   }
 
   #form-div {
@@ -1260,11 +1241,21 @@ textarea:hover {
     margin: 0 auto;
   }
 
-  .student-image {
+  .about p {
+    padding: 0;
+  }
+
+  .student-image-container {
+    text-align: center;
     width: 100%;
+    display: block;
+}
+
+  .student-image {
+    width: 80%;
     border: 1px solid var(--border);
-    margin: 2%;
-    padding: 0.5%;
+    margin: 0;
+    padding: 0;
   }
 
 }
