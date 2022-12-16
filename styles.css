@@ -372,6 +372,12 @@ body p {
   margin-left: 40px;
 }
 
+.send-message {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ff8000;
+}
+
 #form {
   font-family: "Quicksand", sans-serif;
 }
