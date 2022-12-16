@@ -796,6 +796,7 @@ textarea:hover {
     font-size: 40px;
     font-weight: lighter;
     margin: 0;
+    margin-top: -40px;
   }
 
   /*media_frontpage*/
@@ -1037,13 +1038,6 @@ textarea:hover {
   .page-content {
     margin-left: 30px;
     margin-right: 30px;
-  }
-
-  .page_header {
-    font-size: 40px;
-    font-weight: lighter;
-    margin: 0;
-    padding-bottom: 2%;
   }
 
   #form-div {
