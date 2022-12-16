@@ -1135,6 +1135,7 @@ textarea:hover {
 
   .more-tag {
     margin: 0;
+    padding: 3%;
   }
 
   .frontpage-explore-container {
@@ -1167,6 +1168,7 @@ textarea:hover {
   }
 
   .f-teacher-text {
+    padding: 0;
     text-align: center;
     margin-top: 30px;
   }
