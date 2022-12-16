@@ -53,6 +53,10 @@ body a {
     width: 70%;
 }
 
+.home {
+    visibility: hidden;
+}
+
 .list-item {
     margin: 0 auto;
     font-size: 20px;
@@ -63,7 +67,7 @@ body a {
 
 .list-item:hover {
     transform: scale(1.1);
-    text-decoration: line-through ;
+    text-decoration: line-through;
 }
 
 .hamburger {
@@ -187,7 +191,7 @@ body a {
     }
 }
 
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 580px) {
     body {
         margin: 0 auto;
         text-align: center;
@@ -249,7 +253,7 @@ body a {
     .navbar-container:focus .navbar,
     .navbar-container:focus-within .navbar {
         display: flex;
-        height: 155px;
+        height: 300px;
         width: 100vw;
         position: absolute;
         visibility: visible;
@@ -261,8 +265,13 @@ body a {
 
     .list-item {
         margin: 0 auto;
-        padding: 13px 24px;
+        padding: 15px 25px;
     }
+
+    .home {
+        visibility: visible;
+    }
+
 
     .menu-item:hover,
     .menu-item:focus {
