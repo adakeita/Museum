@@ -167,7 +167,6 @@ body p {
 .f-child-image,
 .f-teacher-image {
   padding: 5px;
-  border: solid 2px var(--green);
 }
 
 .f-child-text,
@@ -741,6 +740,8 @@ textarea:focus {
     overflow-x: hidden;
   }
 
+  /*media_frontpage*/
+
   .row {
     display: block;
   }
@@ -812,15 +813,31 @@ textarea:focus {
 
   .frontpage-explore-container {
     margin: 0 auto;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    border-radius: 1%;
+  }
+
+  .explore-row {
+    display: block;
+  }
+
+  .row-child,
+  .row-teacher {
+    display: inline-block;
+    margin: 5%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .row-child {
+    margin-top: 2%;
+    display: block;
+    text-align: center;
   }
 
   .f-child-text {
-    text-align: left;
+    text-align: center;
     margin-bottom: 30px;
-    margin-top: -35px;
+    text-align: center;
+    padding: 0;
   }
 
   .f-explore-img-child,
@@ -830,19 +847,15 @@ textarea:focus {
 
   .f-child-image,
   .f-teacher-image {
-    padding: 10px;
+    padding: 0;
     border: none;
   }
 
-  .f-teacher-image {
-    margin: 0 auto;
-  }
-
   .f-teacher-text {
-    text-align: left;
     margin-top: -70px;
   }
 
+  /*Media_about*/
   .about-text,
   .about-explore-text {
     display: block;
@@ -898,6 +911,32 @@ textarea:focus {
   /*Media-exhibitions*/
   .news-e-row {
     display: block;
+  }
+
+  /*media_visit*/
+
+  .facilities-image-container {
+    text-align: center;
+  }
+
+  /*involved_media*/
+  .involved {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .involved-row {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+
+  .involved-p {
+    padding: 0;
+  }
+
+  .involved-img-container {
+    text-align: center;
+    margin: 0 auto;
   }
 
 }
