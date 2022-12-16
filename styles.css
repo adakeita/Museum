@@ -81,8 +81,11 @@ body p {
 }
 
 .more-tag {
-  display: flex;
-  justify-content: flex-end;
+  display: block;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-left: 55%;
 }
 
 .visit-f-hours {
@@ -193,6 +196,14 @@ body p {
   border-radius: 10%;
 }
 
+.explore-next {
+  display: block;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+}
+
 /*ABOUT-PAGE*/
 
 .about-h5 {
@@ -238,6 +249,35 @@ body p {
   padding: 0.5%;
 }
 
+/*News_Page*/
+
+.temp-header {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-left: 40px;
+}
+
+.news-temp-row {
+  margin-left: 70px;
+  margin-right: 70px;
+  align-items: center;
+}
+
+.temp-item {
+  flex: 1;
+  text-align: center;
+  padding: 5%;
+}
+
+.temp-image {
+  border-radius: 100%;
+}
+
+.temp-chapter {
+  font-weight: lighter;
+  font-size: 20px;
+  text-decoration: underline;
+}
 
 /*GET_INVOLVED*/
 
@@ -560,6 +600,12 @@ textarea:hover {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+}
+
+.news-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ff8000;
 }
 
 .exhibitions-headline {
