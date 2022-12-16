@@ -1002,6 +1002,13 @@ textarea:hover {
     height: -20px;
   }
 
+  /*new-exhibitions-media*/
+
+  .news-temp-row {
+    margin: 0;
+    align-items: center;
+}
+
   /*media_visit*/
 
   .facilities-image-container {
@@ -1009,6 +1016,7 @@ textarea:hover {
   }
 
   /*involved_media*/
+
   .involved {
     display: block;
     margin: 0 auto;
@@ -1029,6 +1037,9 @@ textarea:hover {
   }
 
 }
+
+
+/*580px*/
 
 @media screen and (max-width: 580px) {
   body {
@@ -1224,7 +1235,6 @@ textarea:hover {
 
   /*Media-exhibitions*/
 
-
   .carousel {
     position: relative;
     width: 85vw;
@@ -1236,12 +1246,10 @@ textarea:hover {
     text-decoration: none;
   }
 
-
   .slide-content {
     margin: 0;
     margin-top: -195px;
   }
-
 
   /*about_media*/
 
