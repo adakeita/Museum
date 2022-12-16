@@ -468,7 +468,7 @@ textarea:hover::focus:-ms-placeholder {
 }
 
 header {
-  position: relative;
+  position: static;
   margin: 100px 0 25px 0;
   font-size: 2.3em;
   text-align: center;
