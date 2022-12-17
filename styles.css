@@ -34,9 +34,8 @@ body {
 }
 
 .chapter-header {
-  font-size: 23px;
+  font-size: 25px;
   margin: 10px 5px;
-  font-weight: bolder;
 }
 
 .page_header {
@@ -289,14 +288,10 @@ body {
 /*VISIT_PAGE*/
 
 .visit-top-container {
-  margin-left: 100px;
-  margin-bottom: 30px;
+  margin-left: 50px;
 }
 
-.hours-header,
-.admission-header,
-.location-header,
-.access-header {
+.small_header {
   font-weight: lighter;
   font-size: 20px;
   text-decoration: underline;
@@ -337,8 +332,7 @@ body {
 
 .general-info {
   display: flex;
-  margin-left: 100px;
-  margin-right: 50px;
+  margin: 20px 50px;
 }
 
 .access-info {
@@ -350,12 +344,7 @@ body {
 }
 
 #content-divider {
-  height: 40px;
-}
-
-.facilities-em {
-  font-size: 22px;
-  font-weight: lighter;
+  height: 10px;
 }
 
 .shop-image {
@@ -365,8 +354,7 @@ body {
 }
 
 .visit-facilities-container {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 50px;
 }
 
 /*CONTACT_PAGE*/
