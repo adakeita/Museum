@@ -784,9 +784,15 @@ textarea:hover {
 
   /*Media-exhibitions*/
 
-
+   .wrapper {
+    display: inline-block;
+   }
 
   /*new-exhibitions-media*/
+
+  #news_exhibitions {
+    margin-top: 50px;
+  }
 
   .news-temp-row {
     margin: 0;
