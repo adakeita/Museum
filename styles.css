@@ -390,7 +390,7 @@ body {
 .send-message {
   font-weight: bold;
   text-decoration: underline;
-  color: rgba(255, 106, 0);
+  color: var(--attention);
 }
 
 #form {
@@ -784,9 +784,14 @@ textarea:hover {
 
   /*Media-exhibitions*/
 
-   .wrapper {
-    display: inline-block;
+  .wrapper {
+    display: block;
    }
+
+   .exhibition_image {
+    border-radius: 50%;
+    width: 80%;
+}
 
   /*new-exhibitions-media*/
 
@@ -1022,10 +1027,6 @@ textarea:hover {
     text-align: center;
     width: 90%;
   }
-
-  /*Media-exhibitions*/
-
-
 
   /*about_media*/
 
