@@ -48,12 +48,12 @@ body a {
 
 .navbar {
     margin: 0 auto;
-    margin-left: 350px;
+    margin-left: 380px;
     display: flex;
     width: 70%;
 }
 
-.home {
+.hidden_item {
     visibility: hidden;
 }
 
@@ -175,7 +175,7 @@ body a {
         padding: 20px 25px;
     }
 
-    .home {
+    .hidden_item {
         visibility: visible;
     }
 
