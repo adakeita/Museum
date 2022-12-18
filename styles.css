@@ -317,7 +317,8 @@ body {
 
 .admission-container {
   flex: 1.7;
-  margin-top: 45px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .admin-info {
