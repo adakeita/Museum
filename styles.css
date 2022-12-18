@@ -1,9 +1,9 @@
 /*GLOBAL*/
 
 :root {
-  --light_blue: rgba(73, 108, 162, 0.256);
-  --green: rgba(80, 157, 80, 0.194);
-  --border: rgba(232, 153, 63, 0.4);
+  --light_blue: rgba(73, 108, 162, 0.8);
+  --green: rgba(80, 157, 80, 0.8);
+  --border: rgba(232, 153, 63, 0.8);
   --background: rgba(255, 255, 255);
   --lines: rgba(0, 0, 0);
   --borderstyle:  2px solid;
@@ -242,7 +242,9 @@ body {
 .temp-item {
   flex: 1;
   text-align: center;
-  padding: 5%;
+  padding: 2%;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .temp-image {
