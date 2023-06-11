@@ -5,7 +5,7 @@ ABOUT THIS PROJECT
 Community Museum
 
 
-![Model]()
+![Model](https://github.com/adakeita/Museum/blob/main/museumscreen.png)
 
 
 The site is for a community science museum targeting children and youth. The site has to both appeal to this target group as well as their parents, and feel professional and trustworthy. 
